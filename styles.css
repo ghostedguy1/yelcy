@@ -1,0 +1,288 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  footer {
+    background-color: #ac7db9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+
+  h1, h2, h3 {
+    margin-top: 0;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos de encabezado */
+  header {
+    background-color: #772d8b;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilos de índice */
+  #index {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ac7db9;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  #index-button {
+    background-color: #a667b8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: context-menu;
+    position: absolute ;
+    top: 30px;
+    right: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #index.hidden {
+    display: block;
+  }
+  
+  #index ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  #index li {
+    margin-bottom: 5px;
+  }
+  
+  #index li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #index li a:hover {
+    color: #86e7b8;
+  }
+  
+  /* Estilos de menú */
+  #index-button:hover + #index {
+    display: block;
+  }
+  
+  /* Estilos de información personal y de contacto */
+  #personal-info, #contact-info {
+    background-color: #cea2ac;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos de formación y capacitación */
+  #education, #training {
+    background-color: #86e7b8;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos de habilidades lingüísticas */
+  #language-skills {
+    background-color: #772d8b;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos de experiencias y talentos */
+  #experiences, #talents {
+    background-color: #227c9d;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos de habilidades tecnológicas */
+  #technology-skills {
+    background-color: #cea2ac;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos de concursos y proyectos */
+  #competitions, #projects {
+    background-color: #86e7b8;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #projects {
+    background-color: #cea2ac;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #projects h3 {
+    color: #fff;
+  }
+  
+  /* Colores de títulos de índice */
+  #index ul li a {
+    color: #fff;
+  }
+  
+  #index ul li a:hover {
+    color: #86e7b8;
+  }
+  
+  #personal-info h2,
+  #contact-info h2,
+  #education h2,
+  #training h2,
+  #language-skills h2,
+  #experiences h2,
+  #talents h2,
+  #technology-skills h2,
+  #competitions h2,
+  #projects h2 {
+    color: #031920;
+  }
+  @media (max-width: 768px) {
+  /* Estilos de encabezado */
+  header {
+    margin-bottom: 10px;
+  }
+
+  /* Estilos de índice */
+  #index-button {
+    top: 10px;
+    right: 10px;
+  }
+
+  /* Estilos de información personal y de contacto */
+  #personal-info, #contact-info {
+    padding: 10px;
+  }
+
+  /* Estilos de formación y capacitación */
+  #education, #training {
+    padding: 10px;
+  }
+
+  /* Estilos de habilidades lingüísticas */
+  #language-skills {
+    padding: 10px;
+  }
+
+  /* Estilos de experiencias y talentos */
+  #experiences, #talents {
+    padding: 10px;
+  }
+
+  /* Estilos de habilidades tecnológicas */
+  #technology-skills {
+    padding: 10px;
+  }
+
+  /* Estilos de concursos y proyectos */
+  #competitions, #projects {
+    padding: 10px;
+  }
+
+  /* Estilos de proyectos */
+  #projects h3 {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Estilos de encabezado */
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  /* Estilos de índice */
+  #index-button {
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  #index ul li a {
+    font-size: 12px;
+  }
+
+  /* Estilos de información personal y de contacto */
+  #personal-info, #contact-info {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* Estilos de formación y capacitación */
+  #education, #training {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* Estilos de habilidades lingüísticas */
+  #language-skills {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* Estilos de experiencias y talentos */
+  #experiences, #talents {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* Estilos de habilidades tecnológicas */
+  #technology-skills {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* Estilos de concursos y proyectos */
+  #competitions, #projects {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* Estilos de proyectos */
+  #projects h3 {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  /* Estilos de índice */
+  #index.hidden {
+    top: 40px;
+    right: 10px;
+  }
+}

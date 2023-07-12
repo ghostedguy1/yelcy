@@ -91,10 +91,10 @@ body {
   }
   
   /* Estilos de menú */
-  #index-button:hover + #index {
+  /* #index-button:hover + #index {
     display: block;
   }
-  
+   */
   /* Estilos de información personal y de contacto */
   #personal-info, #contact-info {
     background-color: #cea2ac;

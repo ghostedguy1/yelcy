@@ -24,7 +24,7 @@ indexLinks.forEach((link) => {
   });
 });
 
-const toggleButton = document.getElementById('toggleIndex');
+const toggleButton = document.getElementById('index-button');
 const index = document.getElementById('index');
 let isOpen = false;
 
@@ -51,7 +51,7 @@ toggleButton.addEventListener('mouseleave', () => {
 
 document.addEventListener('click', (event) => {
   const target = event.target;
-  const indexButton = document.getElementById('toggleIndex');
+  const indexButton = document.getElementById('index-button');
 
   if (isOpen && target !== indexButton && !index.contains(target)) {
     index.classList.add('hidden');
